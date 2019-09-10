@@ -1,0 +1,15 @@
+a{
+	border: 5px solid black;
+	color: white;
+}
+
+#test-only{
+	font-size: 20px;
+	background-color: green;
+}
+
+#real-alert{
+	font-size: 100px;
+	font-weight: bolder;
+	background-color: red;
+}
