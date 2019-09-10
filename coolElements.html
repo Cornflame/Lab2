@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Input Elements</title>
+</head>
+
+<body>
+
+	<form>
+		<!--Simple text box-->
+		<label for="name">Enter your name: </label>
+			<input id="name" name="namePlace" required>
+
+		<!--Email box-->
+		<br><label for="email">Enter your email: </label>
+			<input id="email" name="emailPlace" type="email">
+
+		<!--Date/month/year box-->
+		<br><label for="birth">Enter your birthday: </label>
+			<input id="birth" name="dateChoice" type="date">
+
+		<!--Number box-->
+		<br><label for="luckyNum">Enter your lucky number: </label>
+			<input id="luckyNum" name="numberChoice" type="number">
+
+		<!--Color choosing box-->
+		<br><label for="colorChoice">Enter your favorite color: </label>
+			<input id="colorChoice" name="colorChooser" type="color">
+
+		<!--Checkbox-->
+		<br><label for="catsSuck">Do you like cats? </label>
+			<input id="catsSuck" name="catBox" type="checkbox">
+
+		<!--Text Area-->
+		<br><label for="joke">What's your favorite joke> </label>
+			<textarea id="joke" name="jokeArea">Something funny, I hope.</textarea>
+
+		<!--Dropdown menu-->
+		<br><label for="weather">What's your favorite weather? </label>
+			<select id="weather" name="weatherDropdown">
+				<option>Sunny</option>
+				<option>Rainy</option>
+				<option>Snowy</option>
+			</select>
+
+		<!--Radio buttons-->
+		<br><label for="oneOrTwo">Do you like 1 or 2 better?</label>
+			<label for="one">1</label> <input id="one" type="radio" name="oneOrTwo" >
+			<label for="two">2</label> <input id="two" type="radio" name="oneOrTwo">
+
+		<!--Submit Button-->
+		<br><input type="submit">
+
+	</form>
+
+</body>
+
+</html>
