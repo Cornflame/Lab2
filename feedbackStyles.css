@@ -1,0 +1,14 @@
+label{
+	color: CornflowerBlue;
+}
+
+body{
+	background-color: #f0faff;
+	font-family: 'Raleway', light;
+}
+
+.jumbotron{
+	background-color: CadetBlue;
+	font-family: 'Arimo', regular;
+	color: white;
+}
